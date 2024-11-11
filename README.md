@@ -61,7 +61,7 @@ This project is a simple banking login application built with Flask. It tracks a
 1) Upload Files to PythonAnywhere
    Log in to PythonAnywhere.
    Open a Bash console and clone your GitHub repository:
-   - git clone https://github.com/yourusername/banking-website-ip-tracking.git
+   - git clone https://github.com/sparshshekhar/Cyber-Security
    - cd banking-website-ip-tracking
   
 2) Create a Virtual Environment on PythonAnywhere
