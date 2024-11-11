@@ -18,13 +18,16 @@ This project is a simple banking login application built with Flask. It tracks a
 ## Setup Instruction
 
 1) Clone the Repository
-   - git clone https://github.com/yourusername/Banking-Website-with-IP-Tracking.git
+   - git clone https://github.com/sparshshekhar/Cyber-Security
    - cd Banking-Website-with-IP-Tracking
+     
 2) Set Up a Virtual Environment
    - python3 -m venv venv
    - source venv/bin/activate  # On Windows, use venv\Scripts\activate
+     
 4) Install Dependencies
    - pip install -r requirements.txt
+     
 5) Configure Database in config.py
    - DB_USERNAME = 'your_username'
    - DB_PASSWORD = 'your_password'
