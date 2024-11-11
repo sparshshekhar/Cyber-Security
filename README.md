@@ -10,12 +10,7 @@ This project is a simple banking login application built with Flask. It tracks a
 - Stores IP address, location, and timestamp data in a MySQL/PostgreSQL database.
 - Simple HTML structure with two pages: a homepage and a login page.
 
-## Project Structure
-/app
-  ├── templates/
-  │   ├── index.html        # Homepage template
-  │   └── login.html        # Login page template
-  ├── app.py                # Main Flask application file
-  ├── config.py             # Database configuration file
-  ├── requirements.txt      # Project dependencies
-  └── README.md             # Project documentation (you are here)
+## Requirements
+-Python 3.10 or above
+-Virtual environment setup tool (venv or virtualenv)
+-Flask and dependencies listed in requirements.txt
