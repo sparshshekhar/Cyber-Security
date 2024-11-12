@@ -1,4 +1,4 @@
-# Malicious IP Tracing for banking website
+# Malicious IP Tracking for banking website
 
 ## Introduction
 This project is a simple banking login application built with Flask. It tracks a user's IP address and location after three incorrect login attempts, storing this data in a database for review. This can be used as a security measure to log suspicious login activity.
