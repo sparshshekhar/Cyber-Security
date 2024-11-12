@@ -115,3 +115,9 @@ The homepage displays a welcome message once a user has logged in successfully.
 
    Your application should now be accessible at https://yourusername.pythonanywhere.com.
 
+
+## Conclusion
+This project demonstrates the creation of a secure banking web interface with a simple, user-friendly design. The system integrates IP and location tracking functionality, triggered after multiple unsuccessful login attempts, which enhances security and provides insight into potential unauthorized access attempts. By using Flask for backend processing and HTML/CSS/JavaScript for frontend design, this project achieves an effective, lightweight, and aesthetically pleasing solution for a demo banking website.
+The integration of tracking mechanisms into the authentication process reflects an understanding of key security concepts essential in modern web applications. This project serves as a foundation that can be expanded with further features, such as multi-factor authentication, transaction management, and real-time monitoring, to create a fully-functional, secure banking platform.
+
+
