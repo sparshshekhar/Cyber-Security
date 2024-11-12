@@ -73,6 +73,10 @@ The homepage displays a welcome message once a user has logged in successfully.
 ## Outputs
 1. *Frontend Overview*
     ![Frontend Overview](https://github.com/sparshshekhar/Cyber-Security/blob/main/screenshots/1.jpg)
+2. *Failed Attempts*
+    ![Failed Attempts](https://github.com/sparshshekhar/Cyber-Security/blob/main/screenshots/2.jpg)
+3. *Tracked IP*
+    ![Tracked IP](https://github.com/sparshshekhar/Cyber-Security/blob/main/screenshots/3.jpg)
 
 
 
