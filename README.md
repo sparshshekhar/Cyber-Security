@@ -19,7 +19,7 @@ This project is a simple banking login application built with Flask. It tracks a
 
 1) Clone the Repository
    - git clone https://github.com/sparshshekhar/Cyber-Security
-   - cd Banking-Website-with-IP-Tracking
+   - cd Cyber-Security
      
 2) Set Up a Virtual Environment
    - python3 -m venv venv
@@ -62,7 +62,7 @@ This project is a simple banking login application built with Flask. It tracks a
    Log in to PythonAnywhere.
    Open a Bash console and clone your GitHub repository:
    - git clone https://github.com/sparshshekhar/Cyber-Security
-   - cd banking-website-ip-tracking
+   - cd Cyber-Security
   
 2) Create a Virtual Environment on PythonAnywhere
    - mkvirtualenv myenv --python=/usr/bin/python3.10
@@ -75,7 +75,7 @@ This project is a simple banking login application built with Flask. It tracks a
    Under Virtualenv, specify the path to the virtual environment created in step 2.
    Configure the WSGI file to point to the Flask app as follows:
    - import sys
-   - path = '/home/yourusername/banking-website-ip-tracking'
+   - path = '/home/yourusername/Cyber-Security'
    - if path not in sys.path:
    - sys.path.append(path)
    - from app import app as application
