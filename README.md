@@ -15,6 +15,22 @@ This project is a simple banking login application built with Flask. It tracks a
 - Virtual environment setup tool (venv or virtualenv)
 - Flask and dependencies listed in requirements.txt
 
+## Frontend Documentation
+
+### 1. login.html
+The login page contains a form where users enter their username and password. This form submits to the backend (/login endpoint) to verify credentials. If the user enters the wrong credentials three times, their IP and location will be logged.
+
+#### HTML Structure:
+- Form Fields: 
+- username: A text input for the username.
+- password: A password input for the password.
+- Button: 
+- Login: Submits the form data.
+
+### 2. index.html
+The homepage displays a welcome message once a user has logged in successfully.
+
+
 ## Setup Instruction
 
 1) Clone the Repository
