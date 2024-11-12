@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banking Website</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <script src="{{ url_for('static', filename='js/script.js') }}" defer></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <div class="navbar">
+            <h1 class="logo">BankName</h1>
+            <nav>
+                <a href="#">Home</a>
+                <a href="#">About Us</a>
+                <a href="#">Services</a>
+                <a href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Slider Section -->
+    <section class="slider">
+        <div class="slides">
+            <img src="{{ url_for('static', filename='images/banking1.jpg') }}" class="slide" alt="Banking 1">
+            <img src="{{ url_for('static', filename='images/banking2.jpg') }}" class="slide" alt="Banking 2">
+            <img src="{{ url_for('static', filename='images/banking3.jpg') }}" class="slide" alt="Banking 3">
+        </div>
+    </section>
+
+    <!-- Main Content -->
+    <main>
+        <div class="content">
+            <h2>Welcome to BankName Online Banking</h2>
+            <p>Manage your finances securely and easily.</p>
+            <a href="#" class="login-btn">Login to Your Account</a>
+        </div>
+
+        <!-- Sub-Bars Section -->
+        <section class="sub-bars">
+            <div class="sub-bar">
+                <h3>Personal Banking</h3>
+                <p>Access your personal accounts 24/7.</p>
+            </div>
+            <div class="sub-bar">
+                <h3>Business Banking</h3>
+                <p>Support for your business growth and development.</p>
+            </div>
+            <div class="sub-bar">
+                <h3>Loans</h3>
+                <p>Apply for personal and business loans easily.</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>&copy; 2024 BankName. All rights reserved.</p>
+        <nav>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Contact Support</a>
+        </nav>
+    </footer>
+</body>
+</html>
