@@ -70,6 +70,10 @@ The homepage displays a welcome message once a user has logged in successfully.
 3) Access the App
   - Open a browser and go to http://127.0.0.1:5000 to see the homepage.
 
+## Outputs
+1. *Frontend Overview*
+    ![Frontend Overview](https://github.com/sparshshekhar/Cyber-Security/blob/main/screenshots/1.jpg)
+
 
 
 ## Deployment on PythonAnywhere
